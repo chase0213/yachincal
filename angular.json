@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ress/dist/ress.min.css",
               "src/styles.scss"
             ],
             "scripts": []

@@ -14,13 +14,13 @@ export class YachingraphComponent implements OnInit, AfterViewInit, OnChanges, O
   elm: ElementRef;
 
   @Input()
-  title: string = 'Chart.js Line Chart';
+  title: string = '家賃計算';
 
   @Input()
-  xLabel: string = 'x-asix';
+  xLabel: string = '居住期間';
 
   @Input()
-  yLabel: string = 'y-axis';
+  yLabel: string = '一日あたりの実質家賃';
 
   @Input()
   rawData: Data[] = [];
